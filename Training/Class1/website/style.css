@@ -1,0 +1,165 @@
+*{
+    margin: 0.3px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.head{
+   background-color: aqua;
+    background-size: cover;
+    width: 100%;
+    height: 110px;
+    border-radius: 0px;
+    
+}
+.text{
+    display: flex;
+    justify-content: center;
+    padding-top: 19px;
+    padding-right: 500px;
+    font-size: 180%;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    
+}
+.navbr{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 30px;
+
+   
+    
+}
+
+.active{
+    text-decoration: none;
+    color: inherit;
+    padding: 10px;
+    cursor: pointer;
+}
+#sr{
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    
+}
+
+.detail{
+    padding-left: 50px;
+    
+    font-size: 150%;
+}
+
+.section{
+    width: auto;
+    height: 600px;
+    padding-top: 40px;
+    padding-left: 30px;
+    background-image: url(19366.jpg);
+    background-size: cover;
+    
+
+}
+input{
+    outline: none;
+    border: 1px solid rgb(181, 155, 61);
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+input[type="date"]{
+    width: 120px;
+    height: 35px;
+    padding-left: 5px;
+    border-radius: 15px;
+    
+}
+input[type="file"]{
+    width: 220px;
+    height: 25px;
+    padding-left: 5px;
+    border-radius: 15px;
+    
+}
+input[type="text"]{
+    width: 200px;
+    height: 35px;
+    padding-left: 35px;
+    border-radius: 8px;
+}
+input[type="password"]{
+    width: 200px;
+    height: 35px;
+    padding-left: 35px;
+    border-radius: 8px;
+}
+
+input[type="tel"]{
+    width: 200px;
+    height: 35px;
+    padding-left: 40px;
+    border-radius: 8px;
+}
+input[type="email"]{
+    width: 200px;
+    height: 35px;
+    padding-left: 40px;
+    border-radius: 8px;
+}
+textarea{
+    width: 200px;
+    height: 105px;
+    padding-left: 50px;
+    border-radius: 8px;
+    margin: 10px;
+    outline: none;
+    border: 1px solid rgb(181, 155, 61);
+}
+input[type="submit"]{
+    width: 80px;
+    height: 30px;
+    padding-left: 8px;
+   margin-left: 40px;
+    font-size: larger;
+    font-family: "Open Sans";
+    color: #fff;
+    background-color: #03a9f4;
+    cursor: pointer;
+    border: 2px solid #03a9f4;
+    
+    
+    
+}
+input[type="reset"]{
+    width: 80px;
+    height: 30px;
+    padding-left: 15px;
+    margin-left: 105px;
+    font-size: larger;
+    border-radius: 2px;
+    font-family: "Open Sans";
+    color: #fff;
+    background-color: #03a9f4;
+    cursor: pointer;
+    border: 2px solid #03a9f4;
+    vertical-align: middle;
+    
+}
+
+
+.footer{
+    height: 80px;
+    background-color: rgb(57, 164, 164);
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 30px;
+}
+td{
+    font-family: "Open Sans"; 
+    font-size: 18px;
+    
+    
+}
+

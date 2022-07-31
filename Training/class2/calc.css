@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    height: 100%;
+}
+body{
+    display: flex;
+    height: 100%;
+    background-color: #E5E5E5;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background-color: rgb(235, 192, 114);
+    max-width: 300px;
+    box-shadow: 4px 4px 15px 4px rgba(0, 0, 0, 0.15), -4px -4px 20px 4px rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    width: 100%;
+}
+
+.output-section{
+    margin-bottom: 10px;
+    background-color: #e5e5e5;
+    padding: 15px;
+    text-align: right;
+}
+
+.input-string{
+    font-size: 1.3rem;
+}
+
+.result{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.input-controls{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.input-button{
+    height: 60px;
+    background-color: #E8E8E8;
+    font-size: 2rem;
+    display: grid;
+    place-items: center;
+    font-weight: bold;
+}
+
+.control-button{
+    background-color: #C5C5C5;
+    color: #A70909;
+}
+
+.equal-button{
+    color: #28800A;
+}

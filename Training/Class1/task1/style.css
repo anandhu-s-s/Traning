@@ -1,0 +1,139 @@
+.header{
+    width: 1943px;
+    height: 1224px;
+    background-image: url(thisisengineering-raeng-uyfohHiTxho-unsplash-1024x683.png);
+    margin-top: 1px;   
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.left{
+  font-size: 60px;
+  margin-left: 70px;
+  
+}
+#logo{
+    margin-top: 40px;
+    margin-left: 60px;
+    border-radius: 100px;
+    background-color: #fff;
+    border: 10px solid #ffffff;
+}
+.right{
+    margin-top: 48px;
+   margin-left: 40px;
+   width: 1250px;
+   height: 62px;
+   border-radius: 20px;
+   border: 1px solid #707070;
+}
+.main-body{
+    margin-top: 50px;
+     margin-left: 180px;
+     width: 1460px; 
+     height: 908px;
+     background-color: #fff;
+     border: 1px solid #707070;
+     border-radius: 130px;
+
+    
+}
+.sub1{
+    margin-top: 38px;
+    margin-left: 350px;
+    width: 700px;
+    height: 73px;
+     background-color: crimson;
+    border: 1px solid #9b9b9b;
+    border-radius: 90px;
+    text-align: center;
+     color: #FFFFFF;
+}
+.sub2{
+    margin-top: 20px;
+    height: 50px;
+     background-color: #f0e97e;
+     border: 1px #cdcdcd;
+     text-align: center;  
+     color: crimson;
+}
+.block{
+    display: flex;
+    flex-wrap: wrap;
+}
+.departments{
+    margin-top: 30px;
+    margin-left: 72px;
+    width: 273px;
+    height: 82px;
+    background: #3D4F68 ;
+    border: 1px solid #707070;
+    border-radius: 42px 154px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.block2{
+    display: flex;
+}
+.details{
+    margin-top: 40px;
+    margin-left: 67px;
+    width: 283px;
+    height: 488px;
+    background: #EECCCC;
+    border: 1px solid #707070;
+}
+
+.image1{
+    margin-top: 10px;
+    margin-left: 8px;
+    width: 236px;
+    height: 179px;
+    background-image: url(thisisengineering-raeng-uyfohHiTxho-unsplash-1024x683.png);
+    background-size: cover;
+    border: 1px solid #707070;
+    border-radius: 75px;
+
+}
+.desc1{
+    margin-top: 190px;
+    margin-left: 8px;
+    width: 224px;
+    height: 233px;
+    text-align: center;
+    background: #FFFFFF ;
+    border: 1px solid #707070;
+    font-style: italic;
+
+}
+
+.enrol1{
+    margin-top: 30px;
+    margin-left: 28px;
+    width: 155px;
+    height: 48px;
+    background: #7FB80D ;
+    border: 1px solid #707070;
+    border-radius: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    color: #FFFFFF;
+}
+.footer{
+    margin-top: 80px;
+    width: 2091px;
+    height: 164px;
+    background: #3D4F68;
+    border: 1px solid #707070;
+  
+
+}
+.txt1{ 
+    margin-top: 30px;
+    margin-right: 10px;
+    text-align: center;
+    color: #EECCCC;
+
+}
+
